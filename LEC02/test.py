@@ -16,7 +16,11 @@ def loss(x,y):
 w_list=[]
 mse_list=[]
 
-for w in np.arange(0.0,4.1,0.1):
+#gradient
+def gradient(x,y):
+    return (2*x*(x*w-y))
+
+for w in np.arange(0.0,4.1,0.2):
     print("w=",round(w,2))
     l_sum = 0
 
