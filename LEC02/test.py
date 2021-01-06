@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-w= 1.0 #a random guess: random value
+w= 1.0 #a random guess: random_value
 x_data = [1.0,2.0,3.0]
 y_data = [2.0,4.0,6.0]
 
